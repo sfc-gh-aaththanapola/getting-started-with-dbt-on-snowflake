@@ -8,7 +8,7 @@ tasty_bytes:
       role: accountadmin
       database: tasty_bytes_dbt_db
       schema: dev
-      warehouse: COMPUTE_WH_MEDIUM
+      warehouse: COMPUTE_WH_SMALL
     uat:
       type: snowflake
       account: 'not needed'
@@ -16,7 +16,7 @@ tasty_bytes:
       role: accountadmin
       database: tasty_bytes_dbt_db
       schema: uat
-      warehouse: COMPUTE_WH_MEDIUM
+      warehouse: COMPUTE_WH_SMALL
     prod:
       type: snowflake
       account: 'not needed'
@@ -24,4 +24,4 @@ tasty_bytes:
       role: accountadmin
       database: tasty_bytes_dbt_db
       schema: prod
-      warehouse: COMPUTE_WH_MEDIUM
+      warehouse: COMPUTE_WH_SMALL
